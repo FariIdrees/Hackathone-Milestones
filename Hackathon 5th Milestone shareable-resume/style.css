@@ -1,0 +1,73 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.UsWEHDaSyeopX5Oo4QlpjQAAAA?pid=ImgDet&w=138&h=198&c=7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rebeccapurple;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background: rgba(203, 185, 185, 0.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: red;
+    border-style: double;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+fieldset{
+    border:2px solid goldenrod;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgba(0,0,0,0.6)
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: darkblue
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(250, 252, 254);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background: rgb(195, 228, 215);
+    color: rgb(11, 220, 248);
+    border: 3px solid rgb(83, 207, 26);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 90px;
+    font-size: 25px;
+    font-family: Cambria;
+}
+button:hover{
+    background-color: rgb(8, 90, 39);
+}
+#resumeoutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    border-color: whitesmoke;
+    box-shadow: 0 4px 8px rgb(43, 8, 238);
+}
+#resumeoutput h2{
+    color: black;
+}
